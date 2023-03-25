@@ -1,0 +1,74 @@
+
+body {
+  width: 100%;
+}
+
+p, ul, li, a {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,h2{
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  padding-top:2rem;
+  padding-bottom: 2rem;
+}
+
+ul, p {
+  font-size: 1.5rem;
+}
+
+#form {
+  max-width: 35rem;
+  margin: 3.5rem auto;
+  padding: 3rem;
+  background-image: url('../img/bg.png');
+} 
+
+#header {
+  text-align: center;
+}
+
+#header img {
+  max-width: 150px;
+}
+
+#form-area {
+  text-overflow: clip;
+}
+
+#form-area input[type=text]{
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  border: solid  #1a5276  0.1rem;
+  border-radius: 0.2rem;
+}
+
+#form-area button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  background-color: #1a5276 ;
+  color: white;
+}
+
+#form-area button:hover {
+  background-color:  white;
+  color: #1a5276 ;
+}
+
+#footer {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#footer img {
+  padding-right: 1rem;
+  width: 2rem;
+  height: auto;
+}
